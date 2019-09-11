@@ -57,13 +57,25 @@ export default {
 </script>
 
 
-<style >
+<style>
+body {
+  background-image: url("../assets/recipe-background.jpg");
+
+  background-size: cover;
+}
 .index {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
   margin-top: 60px;
 }
+
+@media (max-width: 1100px) {
+  .index {
+    grid-template-columns: 1fr;
+  }
+}
+
 .index h2 {
   font-size: 1.8em;
   text-align: center;

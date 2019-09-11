@@ -88,6 +88,8 @@ export default {
   margin-top: 60px;
   padding: 20px;
   max-width: 500px;
+  background: #fff;
+  border-radius: 4px;
 }
 
 .add-recipe h2 {

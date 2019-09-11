@@ -27,6 +27,7 @@ export default {
 <style>
 .navbar nav {
   padding: 0 20px;
+  background-color: green;
 }
 </style>
 
